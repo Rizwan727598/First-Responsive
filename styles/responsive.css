@@ -83,14 +83,17 @@ ul {
 .hero {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 60px;
+    padding: 20px;
+    background-color: transparent;
+    width: 1060px;
+    margin: 0 auto;
 }
 
 .hero-content {
     max-width: 500px;
     left: 190px;
 }
+   
 .hero-content h1{
     font-size: 48px;
     line-height: 1.2;
