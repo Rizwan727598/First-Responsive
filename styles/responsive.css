@@ -75,7 +75,7 @@ ul {
 }
 
 .navbar a {
-    color: white
+    color: white;
     font-weight: bold;
 }
 
@@ -127,12 +127,12 @@ ul {
     cursor: pointer;
 }
 
-.btn.primary {
+.btn primary {
     background-color: #ff4b4b;
     color: white;
 }
 
-.btn.secondary {
+.btn secondary {
     background-color: transparent;
     color: white;
     border: 2px solid #ff4b4b;
@@ -271,54 +271,36 @@ ul {
     border-radius: 10px;
 }
 /* training and excercise */
-
-
-/* body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #000000; 
-    color: #FFFFFF; 
-}
-
-.title {
-    padding: 50px 0;
-    
-}
-
-.training {
-    margin: 0;
-    font-size: 3em;
-}
-
-.training.description {
-    font-size: 16px;
-    color: #B0B0B0; 
-    margin-top: 10px;
-
-}  */
-/* training and excercise */
-.section-slider {
+.section-slide {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
   }
   
-  h1 {
+   h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-  }
+  } 
   
-  p {
+   p {
     font-size: 1rem;
     margin-bottom: 20px;
   }
   
-  .grid {
+  .grid{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.6fr;
+    gap: 0px;
+  }
+   .grid-1 {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 0.4fr 0.6fr;
     gap: 0px;
+    border: 1px solid red;
+    width: 100%;
   }
   
   .grid-item {
@@ -328,7 +310,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 180px;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -401,75 +383,73 @@ ul {
   }
 
   /* meet our team */
-  /* .section-sliders {
+  .exercise-slider {
     max-width: 1200px;
     margin: 0 auto;
+    gap: 1rem;
     padding: 20px;
-  }
-  .section-sliders{
-    text-align: center;
-    padding: 50px 20px;
-  }
-  
-  .section-sliders h1 {
+}
+
+h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-  }
-  
-  .section-sliders p {
+}
+
+p {
     font-size: 1rem;
     margin-bottom: 20px;
-  }
-  
-  .grid-1 {
+}
+
+.exercise-grid {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0px;
-  }
-  
-  .grid-items {
+}
+
+.exercise-item {
     position: relative;
     padding: 20px;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 275px;
     color: white;
     font-weight: bold;
     text-align: center;
-  }
-  .item-1 {
-    background: rgba(0, 255, 0, 0.5);
-  }
-  
-  .item-2 {
-    background: rgba(255, 0, 0, 0.5);
-  }
-  
-  .item-3 {
-    background: rgba(255, 255, 255, 0.2);
-  }
-  
-  .item-4 {
+}
+
+.item-a {
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.item-b {
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.item-c {
     background: rgba(0, 0, 0, 0.5);
-  }
-  
-  .item-5 {
-    background: rgba(0, 255, 0, 0.2);
-  }
-  
-  .item-6 {
-    background: rgba(100, 100, 255, 0.3);
-  }
-  
-  .grid-items p {
+}
+
+.item-d {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.item-e {
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.item-f {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.exercise-item p {
     z-index: 2;
     position: relative;
-  }
-  
-  .grid-items::before {
+}
+
+.exercise-item::before {
     content: "";
     position: absolute;
     top: 0;
@@ -480,58 +460,61 @@ ul {
     background-position: center;
     z-index: 1;
     opacity: 0.6;
+}
+
+.item-a::before {
+    background-image: url('/images/trainer1.png');
+}
+
+.item-b::before {
+    background-image: url('/images/trainer2.png'); 
+}
+
+.item-c::before {
+    background-image: url('/images/trainer3.png');
+}
+
+.item-d::before {
+    background-image: url('/images/trainer4.png');
   }
-  .item-1::before {
-    background-image: url('/images/exercise1.jpg');
-  }
-  
-  .item-2::before {
-    background-image: url('/images/exercise2.png'); 
-  }
-  
-  .item-3::before {
-    background-image: url('/images/exercise3.png');
-  }
-  
-  .item-4::before {
-    background-image: url('/images/exercise4.png');
-  }
-  
-  .item-5::before {
-    background-image: url('/images/exercise5.jpg');
-  }
-  
-  .item-6::before {
-    background-image: url('/images/exercise6.jpg');
-  } */
+
+
+.item-e::before {
+    background-image: url('/images/trainer5.png');
+}
+
+.item-f::before {
+    background-image: url('/images/trainer6.png');
+}
+
+  /* about bmi */
   body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #1c1c1c; 
-    color: #fff;
+    color: #fff; 
 }
 
 .bmi-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 0px;
     padding: 50px;
-    /* max-width: 1200px; */
-    width: 1400px;
-height: 400px;
-    margin: 88px auto;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .bmi-chart, .bmi-calculator {
-    background-color: #2a2a2a;
-    padding: 30px; */
-    border-radius: 10px;
+    background-color: #2a2a2a; 
+    padding: 30px;
+    border-radius: 1px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .bmi-chart h2, .bmi-calculator h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #fff; 
 }
 
 .bmi-calculator p {
@@ -550,14 +533,14 @@ thead th {
     text-align: left;
     font-size: 16px;
     padding-bottom: 10px;
-    color: #bbb;
+    color: #bbb; 
 }
 
 tbody td {
     padding: 10px 0;
     font-size: 16px;
-    border-top: 1px solid #444;
-    color: #eee;
+    border-top: 1px solid #444; 
+    color: #eee; 
 }
 
 .input-group {
@@ -572,7 +555,7 @@ input[type="text"], select {
     border-radius: 5px;
     border: 1px solid #444; 
     background-color: #333; 
-    color: #fff;
+    color: #fff; 
     font-size: 16px;
     box-sizing: border-box;
 }
@@ -582,7 +565,7 @@ button {
     padding: 12px;
     border: none;
     border-radius: 5px;
-    background-color: #ff5a3c;
+    background-color: #ff5a3c; 
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -590,11 +573,9 @@ button {
 }
 
 button:hover {
-    background-color: #e04a32;
+    background-color: #e04a32; 
 }
 
-  
-  
 /* Footer Styles */
 .footer {
     background-color: #1c1c1c;
