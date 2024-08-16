@@ -7,7 +7,6 @@
   font-weight: 400;
   font-style: normal; 
 }
- General Styles
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -665,6 +664,36 @@ button:hover {
     font-size: 14px;
     color: #ccc;
 }
+
+
+.navbar, .hero, .extra-mile, .bmi-container, .exercise-grid, .footer {
+    overflow: hidden;
+}
+.navbar, .hero, .extra-mile, .bmi-container, .exercise-grid {
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.hero, .extra-mile, .bmi-container, .exercise-grid {
+    max-width: 100%;
+}
+.hero-image img, .extra-mile-image img, .exercise-item img, .bmi-chart img, .bmi-calculator img {
+    max-width: 100%;
+    height: auto;
+}
+.footer {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
 @media screen and (max-width: 576px)  {
 /* Hero section adjustments */
 .hero {
@@ -792,6 +821,47 @@ body {
 
 .footer-link {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 5px;
 }
-}    
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .hero {
+        padding: 0 10px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .extra-mile-content {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .extra-mile-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .exercise-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .bmi-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .input-group input, .input-group select {
+        width: 100%;
+    }
+}
+
+}
