@@ -42,8 +42,6 @@ ul {
     line-height: 120%;
     letter-spacing: 0%;
     width: 1060px;
-    
-    
 }
  
 .baner {
@@ -179,8 +177,6 @@ ul {
      padding: 50px 0;
     background-color: #000;
     color: white;
-
-
 }
 
 .habits h2 {
@@ -823,38 +819,38 @@ body {
     margin-bottom: 5px;
 }
 
-    .hero {
-        padding: 0 10px;
-    }
+.hero {
+    padding: 0 10px;
+}
 
-    .hero-image {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
+.hero-image {
+     width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
 
-    .extra-mile-content {
-        width: 100%;
-        margin-bottom: 1.5rem;
-    }
+.extra-mile-content {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
 
-    .extra-mile-image img {
-        width: 100%;
-        height: auto;
-    }
+.extra-mile-image img {
+    width: 100%;
+    height: auto;
+}
 
-    .exercise-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
+.exercise-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
 
-    .bmi-container {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
+.bmi-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
 
-    .input-group input, .input-group select {
-        width: 100%;
-    }
+.input-group input, .input-group select {
+    width: 100%;
+}
 }
 
