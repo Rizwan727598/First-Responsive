@@ -13,6 +13,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1b1b1b;
     color: white;
+    max-width: 100vh;
+    overflow: hidden;
 } 
  a {
     text-decoration: none;
@@ -686,8 +688,8 @@ padding: 0px;}
    }
 .navbar{
 display: flex;
-justify-content: space-between;
-padding: 0px;
+/* justify-content: space-between;
+padding: 0px; */
 }
 .row{
     display: none;
