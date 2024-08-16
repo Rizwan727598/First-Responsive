@@ -676,10 +676,6 @@ justify-content: flex-start;
 align-items: flex-start;
 gap: 71;
 padding: 0px;}
-
-.badge badge-to{
-    left: -32px;
-}
         
 .baner {
     display: none; 
@@ -687,13 +683,13 @@ padding: 0px;}
         
  .ham-barger {
     display: block; 
- }
+   }
 .navbar{
 display: flex;
 justify-content: space-between;
 padding: 0px;
 }
-.raw{
+.row{
     display: none;
 }
      
@@ -712,100 +708,100 @@ body {
     left: 10px;
 
    
-    }
-    /* .extra-mile */
-    .extra-mile {
-     flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        width: auto;
-        height: auto;
-    }
+}
+/* .extra-mile */
+.extra-mile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
 
-    .extra-mile-content {
-         width: 100%;
-        margin-bottom: 1.5rem; 
+.extra-mile-content {
+    width: 100%;
+    margin-bottom: 1.5rem; 
         
-    }
+}
 
-    .extra-mile-content h2 {
-        font-size: 1.75rem;
-        margin-bottom: 1rem;
-    }
+.extra-mile-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
 
-    .extra-mile-content p {
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
-        line-height: 1.5;
-    }
-    .extra-mile-image img {
-        width: 287px;
-        height: 170px;
-        left: 33px;
-        top: 326px;
-    }
-    /* Training and exercises section adjustments */
-    .exercise-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
+.extra-mile-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.extra-mile-image img {
+    width: 287px;
+    height: 170px;
+    left: 33px;
+    top: 326px;
+}
+/* Training and exercises section adjustments */
+.exercise-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
 
-    .grid-item, .exercise-item {
-        text-align: center;
-    }
+.grid-item, .exercise-item {
+    text-align: center;
+}
 
-    /* BMI calculator adjustments */
-    .bmi-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
+/* BMI calculator adjustments */
+.bmi-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
 
-    .bmi-calculator form {
-        display: grid;
-        gap: 10px;
-    }
+.bmi-calculator form {
+    display: grid;
+    gap: 10px;
+}
 
-    .input-group {
-        display: grid;
-        gap: 10px;
-    }
+.input-group {
+    display: grid;
+    gap: 10px;
+}
 
-    .input-group input, .input-group select {
+.input-group input, .input-group select {
         width: 100%;
-    }
+}
 
-    /* Footer adjustments */
+/* Footer adjustments */
     
-    .footer-content {
-        text-align: center;
-    }
+.footer-content {
+    text-align: center;
+}
 
-    .footer-left, .footer-links {
-        margin-bottom: 20px;
-    }
+.footer-left, .footer-links {
+    margin-bottom: 20px;
+}
 
-    .footer-links {
-         display: flex;
-        flex-direction: column;
-    }
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
 
-    .footer-column {
-        margin-bottom: 10px;
-        justify-items: center;
-        align-items: center;
-        gap: 50px;
-    }
+.footer-column {
+    margin-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+ }
 
-    .footer-list {
-        padding: 0;
-        list-style: none;
-    }
+.footer-list {
+    padding: 0;
+    list-style: none;
+}
 
-    .footer-link {
-        display: block;
-        margin-bottom: 5px;
-    }
+.footer-link {
+    display: block;
+    margin-bottom: 5px;
+}
 }
