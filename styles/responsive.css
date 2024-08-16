@@ -654,7 +654,7 @@ button:hover {
 
 .footer-link:hover {
     color: #ff6347;
-}
+} 
 
 .footer-bottom {
     text-align: center;
@@ -663,12 +663,12 @@ button:hover {
     padding-top: 20px;
     font-size: 14px;
     color: #ccc;
-}
-
+} 
 
 .navbar, .hero, .extra-mile, .bmi-container, .exercise-grid, .footer {
     overflow: hidden;
 }
+
 .navbar, .hero, .extra-mile, .bmi-container, .exercise-grid {
     box-sizing: border-box;
 }
@@ -745,7 +745,6 @@ body {
     width: auto;
     height: auto;
 }
-
 .extra-mile-content {
     width: 100%;
     margin-bottom: 1.5rem; 
@@ -823,11 +822,6 @@ body {
     display: block;
     margin-bottom: 5px;
 }
-
-
-
-
-
 @media screen and (max-width: 576px) {
     .hero {
         padding: 0 10px;
